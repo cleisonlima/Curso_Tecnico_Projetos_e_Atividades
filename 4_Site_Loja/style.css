@@ -1,0 +1,25 @@
+body {
+    color:rgb(86, 14, 202);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    background-color: silver;
+}
+table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: rgb(243, 241, 240);
+    color: black;
+    text-align: center;
+}
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: rgb(0, 7, 4);
+    text-decoration: none;
+}
+a:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: rgb(40, 7, 160);
+    text-decoration: none;
+}
