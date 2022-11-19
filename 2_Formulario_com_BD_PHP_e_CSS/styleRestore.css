@@ -1,0 +1,72 @@
+body {
+    padding: ;
+    margin: ;
+    background-color: #251302;
+    background-image: url("https://cdn01.vulcanpost.com/wp-uploads/2016/05/v14-768x512.jpg");
+    background-size: 1375px 650px;
+    
+}
+
+form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: rgb(3, 2, 0);
+    height: 500px;
+    max-width: 450px;
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.3rem 0;
+    border: 1px solid rgb(25, 9, 119);
+    border-radius: 30px;
+}
+
+h1 {
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 0px 9px rgb(8, 5, 143);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+input, textarea {
+    width: 300px;
+    padding: 10px;
+    color: black;
+    margin-left: px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: black;
+    box-shadow: 5px 0px 9px rgb(20, 134, 240);
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    
+}
+
+textarea {
+    width: 300px;
+    height: 80px;
+    color: rgb(100, 99, 99);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form label {
+    margin-left: 30px;
+    color: rgb(246, 245, 247);
+    font-weight: bold;
+}
+input.enviar {
+    width: 100px;
+    height: 40px;
+    font-family: verdana;
+    background-color: rgb(23, 23, 27);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(179, 177, 187);
+}
